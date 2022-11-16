@@ -1,13 +1,12 @@
 <h1> Themes and classes </h1>
 
-* theme and classeses same as spacing.margin.classes.md
+* to learn moore about theme and classeses, go to spacing.margin.classes.md
 
-btw. classes are:
-space-x-px space-y-px space-x-[0...96 ] space-y-[0...96 ]  
+btw. classes are: 
+1) pixel: space-x-px space-y-px 
+2) rem: space-x-[0...96 ] space-y-[0...96 ]  
 
-space-x-[ px/0...96 ] (margin-left) | space-x is for margin-left 
-<===> 
-space-y-[ px/0...96 ] (margin-top) | space-y is for margin-top  
+* space-x is for margin-left; space-y is for margin-top  
     
 Reversing children order
 space-y-reverse > * + *	--tw-space-y-reverse: 1;
