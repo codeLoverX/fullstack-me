@@ -26,3 +26,10 @@ STEPS ...UP TO
 3)
 in auto
 m-auto m[x/y/t/b/r/l]-auto
+
+4)
+Using negative values
+To use a negative space value, prefix the class name with a dash to convert it to a negative value.
+-m-auto -m[x/y/t/b/r/l]-auto
+-m-px -m[x/y/t/b/r/l]-px 
+-m-0 -m[x/y/t/b/r/l]-0
