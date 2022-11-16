@@ -2,19 +2,29 @@ scrollbar
 
 /* width */
 ::-webkit-scrollbar {
+
   width: 5px;
+
 }
 /* Track */
 ::-webkit-scrollbar-track {
+
   background: blue; 
+
 }
 /* Handle */
+
 ::-webkit-scrollbar-thumb {
+
   background: green; 
+
 }
 /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
+
   background: #555; 
+
 }
 
 scrollbar?
