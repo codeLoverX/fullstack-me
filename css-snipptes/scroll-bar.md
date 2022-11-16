@@ -1,32 +1,31 @@
-scrollbar
+<h1> Scrollbar </h1>
 
-/* width */
+<h5> Some css for styling </h5>
+
+/* This css is for scrollbar's width */
 
 ::-webkit-scrollbar {
   width: 5px;
 }
-/* Track */
+
+
+/* This css is for scrollbar's Track */
 ::-webkit-scrollbar-track {
-
   background: blue; 
-
 }
-/* Handle */
+
+/* This css is for scrollbar\s Handle */
 
 ::-webkit-scrollbar-thumb {
-
   background: green; 
-
 }
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-
   background: #555; 
-
 }
 
-scrollbar?
+<h5> Summary so far </h5>
 
 For webkit browsers, you can use the following pseudo elements to customize the browser's scrollbar:
 ::-webkit-scrollbar the scrollbar.
@@ -36,25 +35,4 @@ For webkit browsers, you can use the following pseudo elements to customize the 
 ::-webkit-scrollbar-track-piece the track (progress bar) NOT covered by the handle.
 ::-webkit-scrollbar-corner the bottom corner of the scrollbar, where both horizontal and vertical scrollbars meet.
 ::-webkit-resizer the draggable resizing handle that appears at the bottom corner of some elements.
-
-image size, how to fill, but not stretch?
-
-.cover {
-  object-fit: cover;
-  width: 50px;
-  height: 100px;
-}
-<img src="http://i.stack.imgur.com/2OrtT.jpg" class="cover" width="242" height="363"/>
-
-.container{
-    position: relative;
-}
-.cover {
-  object-fit: cover;
-  width: 50px;
-  height: 100px;
-}
-<div class="container">
-    <img src="http://i.stack.imgur.com/2OrtT.jpg" class="cover" width="242" height="363"/>
-</div>
 
