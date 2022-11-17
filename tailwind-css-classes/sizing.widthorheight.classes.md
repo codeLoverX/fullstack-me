@@ -2,23 +2,23 @@
 
 <h1> This supports 6 types of class </h1>
 
-1) in pixels 
-px means 1px
+1) in pixels <br>
+px means 1px <br>
 w-px h-px 
 
-2) in rem
+2) in rem <br>
 w-[ 0...96 ] h-[ 0...96 ] 
 
-3) content: mix, max, fit
+3) content: mix, max, fit <br>
 w-min, w-max, w-fit / h-min, h-max, h-fit
 
-4) full-screen
+4) full-screen <br>
 w-screen
 
-5) percentage
+5) percentage <br>
 w-1/12, w-2/12, w-3/12,  ... w-11/12, w-full / h-1/12, h-2/12, h-3/12,  ... h-11/12, h-full   
 
-6) auto width
+6) auto width <br>
 w-auto / h-auto
 
 <h1> Customization </h1>
