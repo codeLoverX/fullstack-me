@@ -11,8 +11,8 @@ min-h-full	         min-height: 100%;
 min-h-min min-h-max  min-h-fit	
 
 <h1> Theres is no min-w-screen </h1>
-min-w-0	min-w-full min-w-min min-w-max  min-w-fit	<br>
 Seems unnecessary, too! 
+
 
 <h1> Application </h1>
 min-width 
