@@ -16,7 +16,8 @@ w-min, w-max, w-fit / h-min, h-max, h-fit
 w-screen
 
 5) percentage <br>
-w-1/12, w-2/12, w-3/12,  ... w-11/12, w-full / h-1/12, h-2/12, h-3/12,  ... h-11/12, h-full   
+w-1/12, w-2/12, w-3/12,  ... w-11/12, w-full / <br>
+h-1/12, h-2/12, h-3/12,  ... h-11/12, h-full   
 
 6) auto width <br>
 w-auto / h-auto
@@ -37,7 +38,7 @@ module.exports = {
     }
   }
 }
-<pre>
+</pre>
 
 Arbitrary values
 If you need to use a one-off width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
