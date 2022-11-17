@@ -1,4 +1,4 @@
-<h1> The height supports 6 classes, width doesn't </h1>
+<h1> The height supports 6 classes, width supports 5 </h1>
 
 1. px <br>
 min-h-0	             min-height: 0px; <br>
