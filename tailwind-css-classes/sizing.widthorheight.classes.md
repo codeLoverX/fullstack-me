@@ -44,8 +44,8 @@ Arbitrary values
 If you need to use a one-off width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
 
 <code>
-\<div class="w-[32rem]">
+<\div class="w-[32rem]">
   <!-- ... -->
-\</div>
+<\/div>
 </code>
 
