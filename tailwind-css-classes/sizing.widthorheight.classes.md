@@ -45,7 +45,7 @@ If you need to use a one-off width value that doesn’t make sense to include in
 
 <pre>
 &ltdiv class="w-[32rem]"> 
-  <!-- ... -->
+  &lt!-- ... -->
 &lt/div>
 </pre>
 
