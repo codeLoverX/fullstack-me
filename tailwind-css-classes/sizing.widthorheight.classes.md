@@ -27,6 +27,7 @@ You can customize your spacing scale by editing theme.spacing or theme.extend.sp
 To customize width separately, use the theme.width section of your tailwind.config.js file.
 
 tailwind.config.js
+<pre>
 module.exports = {
   theme: {
     extend: {
@@ -36,11 +37,14 @@ module.exports = {
     }
   }
 }
+<pre>
 
 Arbitrary values
 If you need to use a one-off width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
 
+<pre>
 <div class="w-[32rem]">
   <!-- ... -->
 </div>
+<pre>
 
