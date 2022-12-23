@@ -21,6 +21,11 @@ e.g. m-auto, mx-auto, my-auto, mt-auto, mb-auto, ml-auto, mr-auto
 
 To use a negative space value, prefix the class name with a dash to convert it to a negative value.
 
+<!-- <h3> Limitations </h3>
+
+Margin is not good for layouts like flex, grid. May use width and margin for entire flex, but gap is superior for each item. 
+ -->
+
 -m[ -/x/y/t/b/l/r ]-auto   <br>
 e.g. -m-auto; -m-px; -mx-6
 
@@ -66,3 +71,11 @@ e.g. space-x-px space-y-px
 
 2) rem: space-x-[0...96 ], space-y-[0...96 ]   <br>
 e.g. space-x-6, space-y-6,
+
+<h3> Using negative values </h3>
+
+>>> Same as margin class
+
+<h3> Limitations </h3>
+
+Not good for divide utilities (Utilities for controlling the border width between elements.)
