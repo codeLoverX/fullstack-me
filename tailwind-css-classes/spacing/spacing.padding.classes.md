@@ -2,14 +2,17 @@
 
 * to learn moore about theme and classeses, go to spacing.margin.classes.md
 
-btw. classes are: 
-1) pixel: p-px p-[ x/y/t/b/l/r ]-px 
-2) rem: p-[ 0...96 ] p-[ x/y/t/b/l/r ]-[0...96 ]   
+1) 1 pixel: px means 1 pixel
 
-    
-<h1> LImitations </h1>
+p[ -/x/y/t/b/l/r ]-px 
 
-Cannot be paired with divide utilities
-The padding-* utilities are not designed to work together with the divide utilities. For those situations, consider adding margin/padding utilities to the children instead.
+e.g. p-px, px-px, py-px, pt-px, pb-px, pl-px, pr-px
+
+2) rem: 
+
+p[ -/x/y/t/b/l/r ]-[0...96 ]   
+
+e.g. px-6, px-6, py-6, pt-6, pb-6, pl-6, pr-6
+
 
 

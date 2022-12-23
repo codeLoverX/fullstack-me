@@ -3,9 +3,10 @@
 * to learn moore about theme and classeses, go to spacing.margin.classes.md
 
 btw. classes are: 
-1) pixel: space-x-px space-y-px 
+1) 1 pixel: means 1px space-x-px space-y-px 
 2) rem: space-x-[0...96 ] space-y-[0...96 ]  
 
+Tailwind always suggests left 
 * space-x is for margin-left; space-y is for margin-top  
     
 Reversing children order

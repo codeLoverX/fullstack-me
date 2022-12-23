@@ -1,26 +1,3 @@
-* to learn moore about w-[ 0...96 ]/ h-[ 0...96 ]  go to spacing.margin.classes.md
-
-<h1> This supports 6 types of class </h1>
-
-1) 1 pixels <br>
-px means 1px <br>
-w-px h-px 
-
-2) in rem <br>
-w-[ 0...96 ] h-[ 0...96 ] 
-
-3) content: mix, max, fit <br>
-w-min, w-max, w-fit / h-min, h-max, h-fit
-
-4) full-screen <br>
-w-screen
-
-5) percentage <br>
-w-1/12, w-2/12, w-3/12,  ... w-11/12, w-full / <br>
-h-1/12, h-2/12, h-3/12,  ... h-11/12, h-full   
-
-6) auto width <br>
-w-auto / h-auto
 
 <h1> Customization </h1>
 
@@ -45,6 +22,30 @@ If you need to use a one-off width value that doesn’t make sense to include in
 
 <pre>
 &ltdiv class="w-[32rem]"> 
+  &lt!-- ... -->
+&lt/div>
+</pre>
+
+<h1> Customization </h1>
+
+You can customize your min-height scale by editing theme.minHeight or theme.extend.minHeight in your tailwind.config.js file.
+
+tailwind.config.js
+<pre>
+module.exports = {
+  theme: {
+    minHeight: {
+      '1/2': '50%',
+    }
+  }
+}
+</pre>
+
+Arbitrary values
+If you need to use a one-off value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+
+<pre>
+&ltdiv class="min-h-[50%]"> 
   &lt!-- ... -->
 &lt/div>
 </pre>
