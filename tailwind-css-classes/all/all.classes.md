@@ -8,9 +8,6 @@ As name suggests
 
 <h3> Classes </h3>
 
-space-x-0 :	margin-left: 0px;
-space-y-0 : margin-top: 0px;
-
 1) 1 pixel: { margin: 1px } m[ -/x/y/t/b/l/r ]-px  
 
 e.g. m-px, mx-px, my-px, mt-px, mb-px, ml-px, mr-px
@@ -75,13 +72,12 @@ Tailwind always suggests left  and top, not right and bottom margin.
 <h3> CSS application </h3>
 
 * space-x is for margin-left; space-y is for margin-top  
-
-space-x-0 :	margin-left: 0px; space-y-0 : margin-top: 0px;
+space-x-0 >	margin-left: 0px;
+space-y-0 > margin-top: 0px;
 
 <h3> Classes </h3>
 
 1) 1 pixel: means 1px 
-
 
 space-x-px space-y-px 
 
