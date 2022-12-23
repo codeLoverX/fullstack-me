@@ -17,7 +17,7 @@ Important ones:
 text-xs(12px), 
 text-sm(14px), 
 text-base (16px)
-ext-xl(20px)
+text-xl(20px)
 text-2xl(24px)
 text-3xl(30px)
 
