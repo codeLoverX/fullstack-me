@@ -7,6 +7,9 @@
 
 module.exports = {
   theme: {
+    >>> classname: font-sans, font-mono, font-serif
+    >>> css property: font-family
+    >>> arbitrary: font-["Inter"]
     fontFamily: {
       'sans': [
         "Inter var, sans-serif",
@@ -19,7 +22,42 @@ module.exports = {
       // ...or escape the space:
       'sans': ['Exo\\ 2', ...],
       }
-    }
+    },
+    >>> classname: text-sm, text-xl, text-5xl
+    >>> css property: font-size
+    >>> arbitrary: text-[14px]
+    fontSize: {
+      sm: '0.8rem',
+      xl: '1.25rem',
+      '4xl': '2.441rem',
+      '5xl': '3.052rem',
+    },
+    >>> classname: font-hairline, font-extra-light, font-light
+    >>> css property: font-weight
+    >>> arbitrary: font-[1100]
+    fontWeight: {
+      hairline: 100,
+      'extra-light': 100,
+      thin: 200,
+      light: 300,
+      normal: 400,
+      medium: 500
+    },
+    >>> classname: tracking-tight, tracking-tighter
+    >>> css property: letter-spacing
+    >>> arbitrary: tracking-[.25em]
+    letterSpacing: {
+      tightest: '-.075em',
+      tighter: '-.05em',
+      tight: '-.025em',
+    },
+    >>> classname: leading-loose
+    >>> css property: line-height
+    >>> arbitrary: leading-[.25em]
+     lineHeight: {
+        'extra-loose': '2.5',
+        '12': '3rem',
+      }
 }
 
 Arbitrary values

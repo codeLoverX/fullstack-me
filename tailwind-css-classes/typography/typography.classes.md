@@ -4,8 +4,22 @@
 font-sans font-serif font-mono	
 
 2. font-size:
-text-xs(12px), text-sm(14px), text-lg(18px), text-xl(20px)...text-9xl
+text-xs(12px), 
+text-sm(14px), 
 text-base (16px)
+text-lg(18px), text-xl(20px)
+text-2xl(24px), text-3xl(30px)
+text-4xl(36px), text-5xl(48px)
+text-6xl(60px), text-7xl(72px)
+text-8xl(96px), text-9xl(120px)
+
+Important ones:
+text-xs(12px), 
+text-sm(14px), 
+text-base (16px)
+ext-xl(20px)
+text-2xl(24px)
+text-3xl(30px)
 
 3. font-style
 italic not-italic	
@@ -16,11 +30,15 @@ font-thin(100)	font-extralight(200)	font-light(300)	font-normal(400)	font-medium
 <h1> font-spacing </h1>
 
 1. letter-spacing
-tracking-tighter tracking-tight	
-tracking-normal	
-tracking-wide	tracking-wider	tracking-widest	
+tracking-tighter tracking-tight	<-> tracking-normal <-> tracking-wide tracking-wider	
+tracking-widest	
 
 2. line-height
+leading-[2...10]
+leading-none
+leading-tight leading-snug	
+leading-normal	
+leading-relaxed	leading-loose	
 
 <h1> List style </h1>
 
